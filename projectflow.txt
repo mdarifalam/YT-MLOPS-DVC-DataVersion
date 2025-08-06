@@ -9,4 +9,5 @@ Next "dvc add data/"\
     Now it will ask to do : ("git rm -r --cache 'data" and "git commit -m "message")
     Because Innitially we were tracking data/folder from git  so now we remove  it for DVC to handle.
 Again we do "dvc  and data/ (creates data.dvc) then "git add gitignore data.dvc"
-
+Now- "dvc commit" and "dvc push"
+Doa a git add commit push to mark this as a first version of data
